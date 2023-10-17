@@ -34,7 +34,16 @@ function quickList(customerArray) {
                 customerCard.appendChild(customerEmail)
                 let customerAddress = document.createElement('div')
                 customerAddress.classList.add("address")
-                customerAddress.innerText = `${customer.location.street.number} ${customer.location.street.name},`
+                customerAddress.innerText = `${customer.location.street.number} ${customer.location.street.name},\n${customer.location.city}, ${customer.location.state}, ${customer.location.postcode}`
+                customerCard.appendChild(customerAddress)
+                let customerDOB = document.createElement('div')
+                customerDOB.classList.add('dob')
+                customerDOB.innerText = `DOB: ${customer.dob.date}`
+                customerCard.appendChild(customerDOB)
+                let customerSince = document.createElement('div')
+                customerSince.classList.add('customer-since')
+                customerSince.innerText = `Customer Since: ${customer.registered.date}`
+                customerCard.appendChild(customerSince)
 
 
 
