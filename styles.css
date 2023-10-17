@@ -3,7 +3,7 @@
     
 }
 
-.customer-directory {
+#customer-directory {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,6 +29,7 @@ img {
     font-weight: bold;
     font-size: larger;
     padding: 10px;
+    text-transform: capitalize;
 }
 
 .email {
