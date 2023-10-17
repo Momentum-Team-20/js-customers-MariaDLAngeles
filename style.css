@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+    
+}
+
+.customer-directory {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.customers {
+    text-align: center;
+    padding: 7px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.email {
+    color: grey;
+    font-size: small;
+}
