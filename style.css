@@ -6,6 +6,8 @@
 .customer-directory {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid silver;
 }
 
 img {
@@ -19,6 +21,8 @@ img {
     text-align: center;
     font-size: small;
     padding: 10px;
+    margin: 5px;
+    border: 1px solid pink;
 }
 
 .name {
