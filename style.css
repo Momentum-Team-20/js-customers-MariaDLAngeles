@@ -17,14 +17,17 @@ img {
 
 .customers {
     text-align: center;
-    padding: 7px;
+    font-size: small;
+    padding: 10px;
 }
 
 .name {
     font-weight: bold;
+    font-size: larger;
+    padding: 10px;
 }
 
 .email {
     color: grey;
-    font-size: small;
+    padding-bottom: 7px;
 }
